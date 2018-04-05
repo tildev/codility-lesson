@@ -1,7 +1,7 @@
 package lesson.num01;
 
 /*
- * 연속적인 0 의 최대 갯수 구하라. 갭이 포함되어 있지 않을 경우 0을 반환
+ * codility - lesson1 BinaryGap
  * 최악 시간 복잡도 O(log(N)) 최악 공간 복잡도 O(1)
  */
 /**
