@@ -12,7 +12,7 @@ import java.util.Set;
  */
 /**
  * @author tildev
- * @data 2018. 4. 5.
+ * @data 2018. 4. 11.
  */
 public class OddOccurrencesInArray {
 	public int solution(int[] A) {
