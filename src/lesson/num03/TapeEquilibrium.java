@@ -23,12 +23,12 @@ public class TapeEquilibrium {
 		}
 		long minDiff = Integer.MAX_VALUE;
 		long diff = 0;
-		for (int i = 0; i < aLen-1; i++) {
+		for (int i = 0; i < aLen - 1; i++) {
 			leftSum += A[i];
 			rightSum -= A[i];
-			
+
 			diff = Math.abs(leftSum - rightSum);
-			if(diff<minDiff) {
+			if (diff < minDiff) {
 				minDiff = diff;
 			}
 		}
