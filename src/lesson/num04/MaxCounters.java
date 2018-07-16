@@ -23,7 +23,7 @@ public class MaxCounters {
 				// max가 result[i] 값 이상이라는 것은 max 값이 정해졌다는 것.
 				// (A[i] == N + 1 조건이 통과되었다는 것.)
 				// A[i] == N + 1 이면, A[i] = max counter 라는 조건에 따라
-				// result[i] 의 값을 max 값으로 맞춰줌과 동시에 index+1 을 해주자.
+				// result[i] 의 값을 max 값으로 맞춰줌과 동시에 +1 을 해주자.
 				if (result[A[i] - 1] < max) {
 					result[A[i] - 1] = max + 1;
 				} else {
